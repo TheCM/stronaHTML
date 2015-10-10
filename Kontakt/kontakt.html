@@ -32,17 +32,33 @@
      <br>
      Nazwisko:<br>
      <input type="text" name="lastname">
+     <br>
      Narzekanie:<br>
-     <input type="text" name="opis">
-     Płeć:
+     <input type="text" name="opis" maxlength="200">
+     <br>
+     <br>
+     Płeć:  
+     <br>
      <input type="radio" name="sex" value="Mężczyzna" >Mężczyzna <br>
      <input type="radio" name="sex" value="Kobieta" >Kobieta <br>
      <input type="radio" name="sex" value="Inne" checked>Inne <br>
-
-     <input type="checkbox" name="like" value="Lubię jabłka słodkie"> Lubię jabłka słodkie </br>
-     <input type="checkbox" name="like" value="Lubię jabłka kwaśne"> Lubię jabłka kwaśne </br>
+     <br>
+     <input type="checkbox" name="like" value="Lubię jabłka słodkie"> Lubię jabłka słodkie <br>
+     <input type="checkbox" name="like" value="Lubię jabłka kwaśne"> Lubię jabłka kwaśne <br>
+     <br>
+     Status wiadomości:
+     <br>
+     <select name="Status wiadomości">
+       <option value="zapytanie">Zapytanie</option>
+       <option value="opinia">Opinia o stronie</option>
+       <option value="skarga">Skarga</option>
+       <option value="pogaduszki">Pogaduszki z miłą sekretarką</option>
+     </select>
      <br><br>
+     
+
      <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
 
   </form> 
   
