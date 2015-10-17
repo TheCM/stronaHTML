@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Katalog - Jabłka świata!</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/main_stylesheet.css">
+</head>
+
+<body>
+
+  <a href="start.html"> Strona glowna </a>
+  <br>
+  <a href="katalog.html"> Katalog </a>
+  <br>
+  <a href="kontakt.html"> Kontakt </a>
+  <br>
+  <a href="dolacz_do_nas.html"> Dolacz do nas! </a>
+  <br>
+
+
+  <h1 id="id_header1"> Wypełnij pola dodatkowe i powiedz nam coś o jabłkach! </h1>
+
+  <form method="post" action="formularz_dodatkowy.html" autocomplete="on">
+
+     <p>
+       <label>Ulubiony kolor jabłek:
+         <input type="color" name="kolor"
+         placeholder="#FFFFFF" autofocus>(w kodzie szesnastkowym np. #978FAD)
+       </label>
+     </p>
+     <p>
+       <label>Miesiąc i rok urodzenia:
+         <input type="month" name="miesiac"
+         placeholder="yyyy-mm">  
+       </label>
+     </p>
+     <p>
+       <label>Ile dziennie jesz jabłek?:
+         <input type="range" min="0" max="15" value="5" name="jabłka" >
+       </label>
+     </p>
+     <p>
+       <label>Wyszukaj:
+         <input type="search" name="wyszukiwanie"
+         placeholder="Search" >
+       </label>
+     </p>
+     <p>
+       <label>Podaj adres Twojej strony:
+         <input type="url" name="strona"
+         placeholder="http://www.domena.com" >
+       </label>
+     </p>
+     <br>
+     <br>
+     <input type="submit" value="Wyślij formularz">
+     <input type="reset" value="reset">
+
+
+  </form>
+</body>
+
+</html>
