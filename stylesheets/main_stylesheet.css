@@ -1,5 +1,12 @@
 <style>
 
+i { }
+
+
+body {
+  background-image : url("../Obrazki/Red_Apple.jpg")
+}
+
 p.p_center {
   text-align : center
 }

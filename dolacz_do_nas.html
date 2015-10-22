@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Katalog - Jabłka świata!</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/main_stylesheet.css">
+</head>
+
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="start.html"> Strona glowna </a></li>
+      <li><a href="katalog.html"> Katalog </a></li>
+      <li><a href="kontakt.html"> Kontakt </a></li>
+      <li><a href="dolacz_do_nas.html"> Dolacz do nas! </a></li>
+    </ul>
+  </nav>
+
+  <h1 id="id_header1"> <mark>Dołącz do nas!</mark> Wypełnij formularz zgłoszeniowy! </h1>
+
+  <form method="post" action="formularz_dodatkowy.html" autocomplete="on">
+ 
+     <p>
+       <label>Imię:
+         <input type="text" name="imie"
+         placeholder="Imię" autofocus>(Imię)
+       </label>
+     </p>
+     <p>
+       <label>Nazwisko:
+         <input type="text" name="nazwisko" required
+         placeholder="Nazwisko">(Nazwisko)
+       </label>
+     </p>
+     <p>
+       <label>Miesiąc urodzenia:
+         <input type="text" name="miesiac"
+         placeholder="Miesiąc" list="months">(np. Październik)
+         <datalist id="months">
+           <option value="Styczeń">
+           <option value="Luty">
+           <option value="Marzec">
+           <option value="Kwiecień">
+           <option value="Maj">
+           <option value="Czerwiec">
+           <option value="Lipiec">
+           <option value="Sierpień">
+           <option value="Wrzesień">
+           <option value="Październik">
+           <option value="Listopad">
+           <option value="Grudzień">     
+         </datalist>
+       </label>
+     </p>
+     <p>
+       <label>Email
+         <input type="email" name="email" required
+         placeholder="example@domain.com">(example@domain.com)
+       </label>
+     </p>
+     <p>
+       <label>Numer telefonu
+         <input type="tel" name="telefon"
+         placeholder="xxx-xxx-xxx" pattern="\d{3}-\d{3}-\d{3}">(123-456-789)
+       </label>
+     </p>
+    
+     <br>
+
+     <input type="submit" value="Wyślij formularz">
+     <input type="reset" value="reset">
+
+  </form>
+
+</body>
+
+</html>

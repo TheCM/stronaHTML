@@ -9,13 +9,14 @@
 
 <body>
 
-  <a href="start.html"> Strona glowna </a>
-  <br>
-  <a href="katalog.html"> Katalog </a>
-  <br>
-  <a href="kontakt.html"> Kontakt </a>
-  <br>
-
+  <nav>
+    <ul>
+      <li><a href="start.html"> Strona glowna </a></li>
+      <li><a href="katalog.html"> Katalog </a></li>
+      <li><a href="kontakt.html"> Kontakt </a></li>
+      <li><a href="dolacz_do_nas.html"> Dolacz do nas! </a></li>
+    </ul>
+  </nav>
 
   <h1 id="id_header1"> Oto katalog naszych kochanych jabłuszek! </h1>
 
@@ -27,16 +28,24 @@
         <li> Twarde 
           <ol>
             <li> 
+              <details> 
+              <summary> Lindsberska </summary>
+              <p> Kwaśne <meter class="standard_meter" value="0.9">  </meter> Słodkie</p>
               <img src="Obrazki/Lindsberska_1.jpg" 
                    alt="Lindsberska" width="250" height="200"> 
+              </details>
             </li>
           </ol>
         </li>
         <li> Miękkie 
           <ol>
             <li> 
+              <details> 
+              <summary> Ligol </summary>
+              <p> Kwaśne <meter class="standard_meter" value="0.8">  </meter> Słodkie</p>
               <img src="Obrazki/Ligol_1.jpg" 
                    alt="Ligol" width="250" height="200"> 
+              </details>
             </li>
           </ol>
         </li>
@@ -47,20 +56,28 @@
         <li> Twarde
           <ol>
             <li>
-              <a href="Obrazki/Gloster_1.jpg" download="Gloster.jpg" >
-                <img src="Obrazki/Gloster_1.jpg" 
-                   alt="Gloster" width="250" height="200">
-              </a>
+              <details> 
+              <summary> Gloster </summary>
+                <p> Kwaśne <meter class="standard_meter" value="0.4">  </meter> Słodkie</p>
+                <a href="Obrazki/Gloster_1.jpg" download="Gloster.jpg" >
+                  <img src="Obrazki/Gloster_1.jpg" 
+                       alt="Gloster" width="250" height="200">
+                </a>
+              </details>
             </li>
           </ol>
         </li>
         <li> Miękkie 
           <ol>
             <li>
+              <details> 
+              <summary> Szara reneta </summary>
+              <p> Kwaśne <meter class="standard_meter" value="0.0">  </meter> Słodkie</p>
               <a href="Katalog/Baza/Szara_reneta.html"> 
                 <img src="Obrazki/Szara_Reneta_1.jpg"
                    alt="Szara reneta" width="250" height="200">
               </a>
+              </details>
             </li>
           </ol>
         </li>
@@ -68,8 +85,10 @@
     </li>
   </ul>
 
-<a href="#id_header1"><p class="p_center">Idź do góry</p></a>
 
+<footer>
+  <a href="#id_header1"><p class="p_center">Idź do góry</p></a>
+</footer>
 
 </body>
 
