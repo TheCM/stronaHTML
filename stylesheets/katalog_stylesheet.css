@@ -1,0 +1,13 @@
+body {
+  background-image : url("../Obrazki/apple_cartoon.jpg");
+  background-color : #55cc00;
+  background-repeat : repeat-y;
+}
+
+nav.nav_menu {
+  background-color: purple;
+  color : yellow;
+}
+
+
+

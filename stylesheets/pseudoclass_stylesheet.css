@@ -1,0 +1,42 @@
+
+body{
+  background-image : none;
+  background-color : #88ff00;
+}
+
+a:link{
+  color : #990088;
+}
+a:visited{
+  color : #00ff00;
+}
+a:hover{
+  color : #ffff00;
+}
+a:active{
+  color : #ffffff;
+}
+
+p i:first-child {
+   color: blue;
+}
+p i:last-child {
+  color: red;
+}
+
+p i:nth-child(2){
+  color : purple;
+}
+
+p:last-of-type{
+  color : orange;
+}
+
+p:nth-last-child(3){
+  color : blue;
+}
+
+:not(p) {
+  margin : 10px;
+}
+

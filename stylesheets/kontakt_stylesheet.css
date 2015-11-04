@@ -1,0 +1,29 @@
+
+
+body{
+  background-image : url("../Obrazki/apple_cartoon.jpg");
+  background-repeat : no-repeat;
+  background-color  : green;
+  background-position : top center;
+  background-attachment : fixed;
+}
+
+a[href="start.html"] {
+  background-color: yellow;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+input:required:focus {
+  border: 1px solid red;
+}
+
+@media print
+{
+  body{
+    background-image : none;
+    background-color : white;
+  }
+}

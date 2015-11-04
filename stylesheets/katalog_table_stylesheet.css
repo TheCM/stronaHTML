@@ -1,0 +1,33 @@
+b.b_table{
+  color : green;
+}
+
+#naglowek_ligol {
+  position: relative;
+  top: 100px;
+  right : 30%;
+}
+
+div.t_class {
+  position : static;
+  left : 100px;
+  margin-top : 100px;
+  margin-left : 200px;
+  background-color : red;
+  width : 60%;
+  padding: 30px;
+  border-radius: 10px;
+}
+p.clear {
+  clear : both;
+}
+p.float-right {
+  float : right;
+}
+
+table.styling {
+  border-width: 10px;
+  border-style: dashed solid dashed dotted;
+  border-color: green;
+}
+
